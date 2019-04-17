@@ -16,6 +16,11 @@ public class ModeloBanco {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Conta perfil01 = new Conta();
+        
+        perfil01.setNumConta(1111);
+        perfil01.setDono("Teotônio");
+        perfil01.estadoAtual();
     }
     
 }
